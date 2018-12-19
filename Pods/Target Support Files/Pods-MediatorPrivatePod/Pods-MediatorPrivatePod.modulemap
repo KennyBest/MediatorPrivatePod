@@ -1,0 +1,6 @@
+framework module Pods_MediatorPrivatePod {
+  umbrella header "Pods-MediatorPrivatePod-umbrella.h"
+
+  export *
+  module * { export * }
+}
