@@ -12,7 +12,7 @@ import UIKit
 open class Mediator {
     public static let shared = Mediator()
     
-    func targetViewController(module: String?, className: String, params: [String: Any]?) -> UIViewController? {
+    public func targetViewController(module: String?, className: String, params: [String: Any]?) -> UIViewController? {
         guard let module = module, module.count > 0 else {
             // 组件名缺少
             return nil
